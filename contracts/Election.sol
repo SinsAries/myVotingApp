@@ -20,7 +20,12 @@ contract Election {
     // Event triggered when a vote is cast
     event votedEvent(uint indexed _candidateId);
 
-    // Function to add a candidate (private)
+    constructor () public {
+        addCandidate("Candidate 1");
+        addCandidate("Candidate 2");
+    }
+    
+    // Function to add a candidate (public)
     function addCandidate(string memory _name) public {
         candidatesCount++;
         candidates[candidatesCount] = Candidate(candidatesCount, _name, 0);
