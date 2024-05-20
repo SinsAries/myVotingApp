@@ -1,4 +1,4 @@
-## Simple web-app dictionary
+## Simple blockchain-based voting app
 For my DSA-Project, I made a simple blockchain-based voting app.
 
 <p align="center"><b>Preview of app</b></p>
